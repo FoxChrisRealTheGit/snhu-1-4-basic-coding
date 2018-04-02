@@ -94,12 +94,10 @@ html{
 
 
 /* end of slider styles */
-.SliderPlaceHolder{
+.SliderPlaceHolder img{
     width: 100%;
     height: 400px;
-    background: black;
 }
-
 /* .mainHeader{
     color: 5e1211;
 } */
@@ -131,11 +129,18 @@ html{
     color: #3C1F1C;
 }
 
+.minimenu img{
+    width: 400px;
+    border-radius: 10px;
+    margin: 30px;
+    
+}
 
 .minimenustuff{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 
@@ -168,7 +173,7 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:rgb(60,31,28);
+    color:#d7c5b7;
     margin: 10px auto;
     width: 500px;
     border: 5px inset #4E2424;
