@@ -1,5 +1,11 @@
+/* sitwide styles */
+html{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
 /* main navigation styles */
 .mainHeader{
+    background-color:#d7c5b7;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -10,10 +16,12 @@
 }
 
 .brand{
-    width:50px;
-    height:50px;
-    background: black;
     margin: 5px 20px;
+}
+
+.brand img{
+    width:125px;
+    height:50px;
 }
 
 .search{
@@ -36,7 +44,7 @@
 }
 
 .mainNavigation li{
-    margin: 10px 20px;
+    margin: 10px 80px;
 }
 
 .mainNavigation li:hover{
