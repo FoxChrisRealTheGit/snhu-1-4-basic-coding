@@ -1,3 +1,48 @@
+/* main navigation styles */
+
+.mainNavigation{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 2px 1px black;
+    position: sticky;
+    top: 0;
+}
+
+.mainNavigation ul{
+    display: flex;
+}
+
+.mainNavigation li{
+    margin: 10px 20px;
+}
+
+
+
+/* end of main navigation styles */
+/* main footer styles */
+.mainFooter{
+    border-top: 1px solid black;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+
+
+/* end of main footer styles */
+/* slider styles */
+
+
+
+
+/* end of slider styles */
+.SliderPlaceHolder{
+    width: 100%;
+    height: 400px;
+    background: black;
+}
+
 /* .mainHeader{
     color: 5e1211;
 } */
