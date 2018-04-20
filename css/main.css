@@ -29,10 +29,14 @@ html{
 .search{
     width:150px;
     height:50px;
-    background: black;
     display: flex;
     justify-content: flex-end;
     margin: 5px 20px;
+    
+}
+input, textarea{
+    border-radius: 10px;
+    background-color: #d7c5b7;
 }
 .mainNavigation{
     display: flex;
